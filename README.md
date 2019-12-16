@@ -8,15 +8,15 @@ Matrix size (update 6/11): ~100000x1000000
 
 **ARCHIVE CONTENTS**
 
-.ipynb_checkpoints       :carpet with some checkpoints(User-User.ipynb)
+__.ipynb_checkpoints__       :carpet with some checkpoints(User-User.ipynb)
 
-User-User.ipynb          : Jupyter notebook file with all the code (Kernel=Python 3)
+__User-User.ipynb__          : Jupyter notebook file with all the code (Kernel=Python 3)
 
-BX-Users.csv                     : Generic dataset with information associated to Users
+__BX-Users.csv__                     : Generic dataset with information associated to Users
 
-BX-Books-Rating.csv                    : Generic with information associated to the "Rating"-interaction
+__BX-Books-Rating.csv__                    : Generic with information associated to the "Rating"-interaction
 
-BX-Books.csv                  : Generic dataset with information associated to Items
+__BX-Books.csv__                  : Generic dataset with information associated to Items
 
 
 Soon...
