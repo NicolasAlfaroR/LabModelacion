@@ -1,12 +1,22 @@
 # LabModelacion MAT-282
  
-#### Repository created with the purpose of build recommender systems and as a "Laboratorio de modelación"(subject of college) Project .
+Repository created with the purpose of build recommender systems and as a "Laboratorio de modelación"(subject of college) Project.
+Partial structure of README was obtained from the next link:
 
-#### Partial structure of README: https://www.kaggle.com/WinningModelDocumentationGuidelines
+https://www.kaggle.com/WinningModelDocumentationGuidelines
 
-Matrix size (update 6/11): ~100000x1000000
 
-**ARCHIVE CONTENTS**
+## Content Table
+
+- [ARCHIVE CONTENTS](#archive-contents).
+- [HARDWARE](#hardware-the-following-specs-were-used-to-create-the-original-solution).
+- [SOFTWARE](#software-python-packages-are-detailed-separately-in-requirementstxt).
+- [COMMENTS 6/11/2019 UPDATE](#comments-about-6112019-update).
+
+<br/><br/>
+
+### ARCHIVE CONTENTS
+
 
 __.ipynb_checkpoints__       :carpet with some checkpoints(User-User.ipynb)
 
@@ -19,13 +29,15 @@ __BX-Books-Rating.csv__                    : Generic with information associated
 __BX-Books.csv__                  : Generic dataset with information associated to Items
 
 
-Soon...
+_Soon..._
 
-train_code                  : code to rebuild models from scratch
+_train_code                  : code to rebuild models from scratch_
 
-predict_code                : code to generate predictions from model binaries
+_predict_code                : code to generate predictions from model binaries_
 
-**HARDWARE**: (The following specs were used to create the original solution)
+<br/><br/>
+
+### HARDWARE (The following specs were used to create the original solution)
 
 Windows 10 Home 64 bits 10.0,compilation:18362 (512Gb boot disk)
 
@@ -33,7 +45,11 @@ Intel(R) Core(TM) i5-8250U CPU @ 1.60Ghz (8CPUs) , ~1.8GHz
 
 8192MB RAM
 
-**SOFTWARE** (python packages are detailed separately in `requirements.txt`):
+
+
+<br/><br/>
+
+### SOFTWARE (python packages are detailed separately in `requirements.txt`) 
 
 Python 3.7.3
 
@@ -46,3 +62,10 @@ Pandas Ver. 0.25.1
 Numpy Ver. 1.17.1
 
 scikit-surprise 1.1.0
+
+
+<br/><br/>
+
+### Comments about 6/11/2019 update
+
+Sparse Matrix size: ~100k users X 100k items
