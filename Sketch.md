@@ -1,19 +1,4 @@
-## 3 surprise libraries chosen:
-
- * NormalPredictor: Predictor of rating, assuming a normal distribution of them.
-     * Pros: Easiest predictor, intuitive and fast.
-     * Cons: Worst predictions,  performance strongly linked to variability.
-
- * KNNWithMeans
-     * Pros:Better predictions than "NormalPredictor",non-parametric.
-     * Cons: Performance linked to variability and slow in contrast of "NormalPredictor" and Co-clustering. 
-
- * Co-clustering
-     * Pros:Scalability and Computational efficiency.
-     * Cons: Hardest predictor, tradeoff between scalability and accuracy .
-
-
-*Sketch.
+# Sketch.
 
 Once user-user filter was created , the final step would find ( for a specific user ) items that the user of interest, wasn't interacted before
 for each n similar users, then sort in a descendant way this items, by mean rating. Finally recommend the first m items.
